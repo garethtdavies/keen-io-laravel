@@ -1,0 +1,21 @@
+{
+  "name": "wensleydale/keen-io-laravel",
+  "description": "A minimal service provider to set up and use the Keen.io PHP library in Laravel 5",
+  "keywords": ["keen", "laravel", "keen-io"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gareth Davies",
+      "email": "hello@garethtdavies.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "5.*",
+    "keen-io/keen-io": "~2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wensleydale\\KeenLaravel\\": "src/"
+    }
+  }
+}
