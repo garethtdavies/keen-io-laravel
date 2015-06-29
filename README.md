@@ -13,8 +13,8 @@ $event = ['purchase' => ['item' => 'Golden Elephant']];
 Keen::addEvent('purchases', $event);
 ```
 
-As this package is a wrapper, you should refer to the [Keen PHP client](https://github.com/keenlabs/KeenClient-PHP) for
- full details about all available methods. 
+You should refer to the [Keen PHP client](https://github.com/keenlabs/KeenClient-PHP) for full details about all 
+available methods. 
 
 ## Setup
 
