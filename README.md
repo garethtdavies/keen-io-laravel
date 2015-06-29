@@ -68,7 +68,7 @@ public function addEvent()
 {
 	$event = ['purchase' => ['item' => 'Golden Elephant']];    
 
-	$this->client->addEvent($event);
+	$this->client->addEvent('purchases', $event);
     
     //Or overwrite defaults
     $this->client->setProjectId('new-project-id');
