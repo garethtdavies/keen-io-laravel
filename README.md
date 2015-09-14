@@ -45,7 +45,7 @@ available methods.
 3. Publish the configuration file (creates keen.php in config directory) and add project ID and API keys.
 
 	```shell
-    $ php artisan vendor publish
+    $ php artisan vendor:publish
     ```
 
 ### Type Hinting
