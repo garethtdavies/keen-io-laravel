@@ -3,6 +3,8 @@
 A service provider and facade to set up and use the Keen.io PHP library in Laravel 5.
 
 [![Build Status](https://travis-ci.org/garethtdavies/keen-io-laravel.svg?branch=master)](https://travis-ci.org/garethtdavies/keen-io-laravel)
+[![Total Downloads](https://poser.pugx.org/wensleydale/keen-io-laravel/downloads)](https://packagist.org/packages/wensleydale/keen-io-laravel)
+[![License](https://poser.pugx.org/wensleydale/keen-io-laravel/license)](https://packagist.org/packages/wensleydale/keen-io-laravel)
 
 This package consists of a service provider, which binds an instance of an initialized Keen.io client to the 
 IoC-container and a Keen facade so you may access all methods of the Keen-io class via the syntax:
