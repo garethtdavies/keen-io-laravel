@@ -32,13 +32,13 @@ available methods.
     # Add `KeenLaravelServiceProvider` to the `providers` array
     'providers' => array(
         ...
-        'Wensleydale\KeenLaravel\KeenLaravelServiceProvider',
+        Wensleydale\KeenLaravel\KeenLaravelServiceProvider::class,
     )
 
     # Add the `KeenFacade` to the `aliases` array
     'aliases' => array(
         ...
-        'Keen' => 'Wensleydale\KeenLaravel\KeenFacade',
+        'Keen' => Wensleydale\KeenLaravel\KeenFacade::class,
     )
     ```
 
