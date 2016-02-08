@@ -14,7 +14,7 @@ return array(
     |
     */
 
-    'projectId' => 'KEEN_PROJECT_ID',
+    'projectId' => env('KEEN_PROJECT_ID', ''),
 
     /*
     |--------------------------------------------------------------------------
@@ -31,10 +31,10 @@ return array(
     |
     */
 
-    'masterKey' => 'KEEN_MASTER_KEY',
+    'masterKey' => env('KEEN_MASTER_KEY', ''),
 
-    'writeKey' => 'KEEN_WRITE_KEY',
+    'writeKey'  => env('KEEN_WRITE_KEY', ''),
 
-    'readKey' => 'KEEN_READ_KEY',
+    'readKey'   => env('KEEN_READ_KEY', ''),
 
 );

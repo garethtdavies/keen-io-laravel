@@ -44,10 +44,19 @@ available methods.
     )
     ```
 
-3. Publish the configuration file (creates keen.php in config directory) and add project ID and API keys.
+3. Publish the configuration file (creates keen.php in config directory)
 
 	```shell
     $ php artisan vendor:publish
+    ```
+
+    Then either edit the keen.php file in the config directory or simply add the following to your .env file:
+
+    ```shell
+    KEEN_PROJECT_ID=
+    KEEN_MASTER_KEY=
+    KEEN_WRITE_KEY=
+    KEEN_READ_KEY=
     ```
 
 ### Type Hinting
