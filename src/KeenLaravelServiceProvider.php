@@ -37,12 +37,12 @@ class KeenLaravelServiceProvider extends ServiceProvider
 
             $config = $app['config']['keen'];
 
-            return (new KeenIOClient())->factory([
+            return (KeenIOClient::factory([
                 'projectId' => $config['projectId'],
                 'masterKey' => $config['masterKey'],
                 'writeKey'  => $config['writeKey'],
                 'readKey'   => $config['readKey']
-            ]);
+            ]));
         });
     }
 
