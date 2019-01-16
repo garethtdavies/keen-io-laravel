@@ -21,5 +21,15 @@
     "psr-4": {
       "Wensleydale\\KeenLaravel\\": "src/"
     }
-  }
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wensleydale\\KeenLaravel\\KeenLaravelServiceProvider"
+            ],
+            "aliases": {
+                "Keen": "Wensleydale\\KeenLaravel\\KeenFacade"
+            }
+        }
+    }
 }
